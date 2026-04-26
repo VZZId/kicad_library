@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 3.556 6.35 0)
+			(at 1.016 1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOP-28_8.4x18.16mm_P1.27mm"
-			(at -11.938 -52.07 0)
+			(at -14.478 -57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://Datasheet_VID6606.pdf"
-			(at -9.144 -55.118 0)
+			(at -11.684 -60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" "Stepper Motor Driver"
-			(at -8.382 6.604 0)
+			(at -10.922 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51,8 +51,8 @@
 		)
 		(symbol "VID6606_0_1"
 			(rectangle
-				(start 2.54 5.08)
-				(end 27.94 -48.26)
+				(start 0 0)
+				(end 25.4 -50.8)
 				(stroke
 					(width 0)
 					(type default)
@@ -64,7 +64,7 @@
 		)
 		(symbol "VID6606_1_1"
 			(pin power_out line
-				(at 0 -2.54 0)
+				(at -2.54 -7.62 0)
 				(length 2.54)
 				(name "nRESET"
 					(effects
@@ -82,7 +82,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -10.16 0)
+				(at -2.54 -15.24 0)
 				(length 2.54)
 				(name "CW_nCCW_A"
 					(effects
@@ -100,7 +100,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -12.7 0)
+				(at -2.54 -17.78 0)
 				(length 2.54)
 				(name "F_A"
 					(effects
@@ -118,7 +118,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -17.78 0)
+				(at -2.54 -22.86 0)
 				(length 2.54)
 				(name "CW_nCCW_B"
 					(effects
@@ -136,7 +136,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -20.32 0)
+				(at -2.54 -25.4 0)
 				(length 2.54)
 				(name "F_B"
 					(effects
@@ -154,7 +154,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -25.4 0)
+				(at -2.54 -30.48 0)
 				(length 2.54)
 				(name "CW_nCCW_C"
 					(effects
@@ -172,7 +172,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -27.94 0)
+				(at -2.54 -33.02 0)
 				(length 2.54)
 				(name "F_C"
 					(effects
@@ -190,7 +190,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -33.02 0)
+				(at -2.54 -38.1 0)
 				(length 2.54)
 				(name "CW_nCCW_D"
 					(effects
@@ -208,7 +208,7 @@
 				)
 			)
 			(pin input line
-				(at 0 -35.56 0)
+				(at -2.54 -40.64 0)
 				(length 2.54)
 				(name "F_D"
 					(effects
@@ -226,7 +226,7 @@
 				)
 			)
 			(pin power_in line
-				(at 8.89 7.62 270)
+				(at 6.35 2.54 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -244,7 +244,7 @@
 				)
 			)
 			(pin power_out line
-				(at 15.24 -50.8 90)
+				(at 12.7 -53.34 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -262,7 +262,7 @@
 				)
 			)
 			(pin power_in line
-				(at 16.51 7.62 270)
+				(at 13.97 2.54 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -280,7 +280,7 @@
 				)
 			)
 			(pin output line
-				(at 30.48 2.54 180)
+				(at 27.94 -2.54 180)
 				(length 2.54)
 				(name "OUT1_A"
 					(effects
@@ -298,7 +298,7 @@
 				)
 			)
 			(pin output line
-				(at 30.48 0 180)
+				(at 27.94 -5.08 180)
 				(length 2.54)
 				(name "OUT2_A"
 					(effects
@@ -316,7 +316,7 @@
 				)
 			)
 			(pin output line
-				(at 30.48 -2.54 180)
+				(at 27.94 -7.62 180)
 				(length 2.54)
 				(name "OUT3_A"
 					(effects
@@ -334,7 +334,7 @@
 				)
 			)
 			(pin output line
-				(at 30.48 -5.08 180)
+				(at 27.94 -10.16 180)
 				(length 2.54)
 				(name "OUT4_A"
 					(effects
@@ -352,7 +352,7 @@
 				)
 			)
 			(pin output line
-				(at 30.48 -10.16 180)
+				(at 27.94 -15.24 180)
 				(length 2.54)
 				(name "OUT1_B"
 					(effects
@@ -370,7 +370,7 @@
 				)
 			)
 			(pin output line
-				(at 30.48 -12.7 180)
+				(at 27.94 -17.78 180)
 				(length 2.54)
 				(name "OUT2_B"
 					(effects
@@ -388,7 +388,7 @@
 				)
 			)
 			(pin output line
-				(at 30.48 -15.24 180)
+				(at 27.94 -20.32 180)
 				(length 2.54)
 				(name "OUT3_B"
 					(effects
@@ -406,7 +406,7 @@
 				)
 			)
 			(pin output line
-				(at 30.48 -17.78 180)
+				(at 27.94 -22.86 180)
 				(length 2.54)
 				(name "OUT4_B"
 					(effects
@@ -424,7 +424,7 @@
 				)
 			)
 			(pin output line
-				(at 30.48 -22.86 180)
+				(at 27.94 -27.94 180)
 				(length 2.54)
 				(name "OUT1_C"
 					(effects
@@ -442,7 +442,7 @@
 				)
 			)
 			(pin output line
-				(at 30.48 -25.4 180)
+				(at 27.94 -30.48 180)
 				(length 2.54)
 				(name "OUT2_C"
 					(effects
@@ -460,7 +460,7 @@
 				)
 			)
 			(pin output line
-				(at 30.48 -27.94 180)
+				(at 27.94 -33.02 180)
 				(length 2.54)
 				(name "OUT3_C"
 					(effects
@@ -478,7 +478,7 @@
 				)
 			)
 			(pin output line
-				(at 30.48 -30.48 180)
+				(at 27.94 -35.56 180)
 				(length 2.54)
 				(name "OUT4_C"
 					(effects
@@ -496,7 +496,7 @@
 				)
 			)
 			(pin output line
-				(at 30.48 -35.56 180)
+				(at 27.94 -40.64 180)
 				(length 2.54)
 				(name "OUT1_D"
 					(effects
@@ -514,7 +514,7 @@
 				)
 			)
 			(pin output line
-				(at 30.48 -38.1 180)
+				(at 27.94 -43.18 180)
 				(length 2.54)
 				(name "OUT2_D"
 					(effects
@@ -532,7 +532,7 @@
 				)
 			)
 			(pin output line
-				(at 30.48 -40.64 180)
+				(at 27.94 -45.72 180)
 				(length 2.54)
 				(name "OUT3_D"
 					(effects
@@ -550,7 +550,7 @@
 				)
 			)
 			(pin output line
-				(at 30.48 -43.18 180)
+				(at 27.94 -48.26 180)
 				(length 2.54)
 				(name "OUT4_D"
 					(effects
